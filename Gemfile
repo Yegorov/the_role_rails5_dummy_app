@@ -30,6 +30,13 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+gem 'jquery-rails'
+gem 'devise'
+gem 'haml'
+gem 'faker'
+
+gem 'the_role_api', path: '../the_role_api'
+gem 'the_role_management_panel', path: '../the_role_management_panel'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
